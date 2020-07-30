@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/oriental-tiles.png');
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.container {
+    background-color: rgba(30, 51, 238, 0.774);
+    border-style: solid;
+    border-color: black;
+    width: 1200px;
+    height: 645px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elements {
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.image {
+    display: flex;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.image img {
+    padding: 2px;
+}
+
+.item-img p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+}
+
+.img-config {
+    font-style: oblique;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background: royalblue;
+    }
+    .elements {
+        width: auto;
+        height: auto;
+    }
+    .item-img {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        padding: 0px 10px 0px 0px;
+    }
+    .img-config {
+        font-style: oblique;
+        display: flex;
+        width: auto;
+        height: auto;
+    }
+}

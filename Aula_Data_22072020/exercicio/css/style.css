@@ -1,0 +1,91 @@
+body { 
+    padding: 15px; 
+    background:#eee; 
+    font-family: Arial, Helvetica, sans-serif 
+}
+.cabecalho{
+    width: auto;
+    height: width*(0.2);
+    background-color: aqua;
+    border-style: solid;
+}
+.container{
+    width: 1200px;
+    border-style: solid;
+    border-color: blue;
+    display:flex;
+}
+.caixa-a{
+    width: 20%;
+    border-style: solid;
+    border-color: red;
+    background-color: aqua;
+}
+.caixa-b{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 66%;
+    border-style: solid;
+    background-color: aqua;
+    border-color: red;
+}
+.caixa-c{
+    width: 8%;
+    border-style: solid;
+    border-color: red;
+    background-color: aqua;
+}
+.caixa-a, h2{
+    font-size: 28px;
+}
+.caixa-b, h2{
+    font-size: 28px;
+}
+.caixa-c, h2{
+    font-size: 28px;
+}
+.caixa-a, strong{
+    font-size: 15px;
+}
+.caixa-b, strong{
+    font-size: 15px;
+}
+.caixa-c, strong{
+    font-size: 15px;
+}
+@media screen and (min-width: 900px) {
+    .container{
+        width: 95%;
+        size: 20px;
+    }
+    .caixa-a{
+        width: 40%;
+        float: left;;
+    }
+    .caixa-b{
+        width: 50%;
+        float: right;;
+    }
+    .caixa-c{
+        width: 100%;
+        display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container{
+        width: 95%;
+        size: 20px;
+    }
+    .caixa-a{
+        width: 40%;
+        float: left;;
+    }
+    .caixa-b{
+        width: 50%;
+        float: right;;
+    }
+    .caixa-c{
+        width: 100%;
+        flex-direction: row;
+    }
+}

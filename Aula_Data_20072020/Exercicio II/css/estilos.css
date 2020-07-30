@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(146, 190, 192);
+}
+h1{
+    text-align: center;
+    color: #0d47a1;
+    font-style: italic;
+}
+ul, ol{
+    font-style: normal;
+    font-variant: initial;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+.links{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+    text-decoration: underline;
+}
+.pr{
+    color: #0d47a1;
+    font-weight: normal;
+    text-decoration: underline;
+}
+strong, em, mark{
+    color: green;
+    font-size: 1.5rem;
+}
+input:focus{
+    background-color: #0d47a1;
+}
+textarea{
+    resize: vertical;
+}
+img:hover{
+    border-radius: 40px;
+}
+label:hover{
+    color: #0d47a1;
+}
+button{
+    color: #0d47a1;
+}
+button:hover{
+    border-bottom: 24px;
+    box-sizing: border-box;
+}
+checkbox{
+    border-bottom: 2px;
+}
+header{
+    border-top: 20px;
+    border-left: auto;
+    border-right: auto;
+    border-width: 20px;
+    background-color: #9aafcf;
+    border-style: solid;
+    border-spacing: 20px;
+    border-color: red;
+    width: 960px;
+
+}
+section{
+    border-top: 20px;
+    border-left: auto;
+    border-right: auto;
+    border-width: 20px;
+    border-spacing: 20px;
+    border-style: solid;
+    border-color: red;
+    background-color: cadetblue;
+}
+footer{
+    border-top: 20px;
+    border-left: auto;
+    border-right: auto;
+    border-width: 20px;
+    border-style: solid;
+    border-spacing: 20px;
+    padding: 20px 20px 20px 20px;
+    border-color: red;
+    background-color: aqua;
+}
+.footer-descri{
+    text-align: center ;
+    border-spacing: 20px;
+    text-decoration: dashed;
+    color:black;
+}
+.container-c{
+    box-sizing: border-box;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.container-d{
+    box-sizing: border-box;
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}

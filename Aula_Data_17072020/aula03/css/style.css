@@ -1,0 +1,29 @@
+div{
+    background-color: blueviolet;
+}
+div div{
+    background-color: firebrick;
+}
+div.fundorosa{
+    background-color: pink;
+}
+.verde{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   /* z-index: 0; */
+    
+}
+
+.azul{
+    width: 100px;
+    height: 1000px;
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    /*top: 100px*/
+   /* z-index: 1; */
+}

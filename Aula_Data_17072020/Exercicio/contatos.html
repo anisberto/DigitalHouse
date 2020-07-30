@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <h1><strong>Formulário de Contato</strong></h1>
+    <form action="index.php" method="POST">
+        <label for="nomeCompleto"><strong>Nome e sobrenome</strong></label><br>
+        <input type="text" id="name" name="username" placeholder="Nome Completo" value="" required>
+        <br><label for="email"><strong>E-mail</strong></label><br>
+        <input type="email" id="email" name="user" value="" required placeholder="Anisberto@gmail.com"><br><br>
+        <label for="assunto"><strong>Assunto da mensagem</strong></label><br>
+        <select name="assunto" id="ass">
+            <optgroup label="SAC">
+                <option value="suporteInt">Suporte Internet</option>
+                <option value="SuporteTv">Suporte TV</option>
+            </optgroup>
+            <optgroup label="Boleto">
+                <option value="emissao">Emissão de Boleto</option>
+                <option value="Multas">Negociação de Multas</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <label for="sexomasculino"><strong>Masculino</strong></label>
+        <input type="radio" name="sexo" value="masculino" required>
+        <label for="sexofeminino"><strong>Feminino </strong></label>
+        <input type="radio" name="sexo" value="feminino" required>
+        <br><br>
+        <label for="Passatempos"><strong>Passatempos: </strong></label><br>
+        <input type="checkbox" name="user" value="Anisberto reis">
+        <label for="Passatempos">Jogar Futebor </label>
+        <input type="checkbox" name="user" value="Anisberto reis">
+        <label for="Passatempos">Caminhar </label>
+        <input type="checkbox" name="user" value="Anisberto reis">
+        <label for="Passatempos">Ler </label>
+        <input type="checkbox" name="user" value="Anisberto reis">
+        <label for="Passatempos">Ver Series </label>
+        <input type="checkbox" name="user" value="Anisberto reis">
+        <label for="Passatempos">Programar </label><br><br>
+        <label for="Passatempos"><strong>Comentarios: </strong> </label><br>
+        <textarea name="comentarios" id="coment" cols="60" rows="10"></textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Excluir</button>
+        <button type="button">other</button>
+        <button><a href="index.html">Voltar</a></button>
+    </form>
+</body>
+
+</html>

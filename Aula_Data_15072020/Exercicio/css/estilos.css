@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(146, 190, 192);
+}
+h1{
+    text-align: center;
+    color: #0d47a1;
+    font-style: italic;
+}
+ul, ol{
+    font-style: normal;
+    font-variant: initial;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+.links{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+    text-decoration: underline;
+}
+.pr{
+    color: #0d47a1;
+    font-weight: normal;
+    text-decoration: underline;
+}
