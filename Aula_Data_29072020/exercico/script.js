@@ -27,7 +27,50 @@ function func_callback(callback) {
 func_callback(callback);
 
 /////////////////////
+function funcaoPrincipal() {
+    for (let index = 0; index <= 90000; index++) {}
+    console.log('função')
 
+}
+
+function funcaoAssincrona() {
+    setTimeout(() => {
+        funcaoPrincipal()
+    }, 2000)
+}
+
+function isError() {
+    let x = Math.floor(10 * Math.random())
+    if (x % 2 != 0) {
+        throw "Error"
+    }
+}
+
+
+function criaPromise() {
+    return new Promise((resolve, reject) => {
+        try {
+            funcaoPrincipal()
+            isError()
+            resolve()
+        } catch (e) {
+            reject(e)
+        }
+    })
+}
+
+var insert = (value) => {
+    return new Promise((reject, resolve) => {
+        value == true ? resolve("Cliente Aprovado") : reject("Cliente Reprovado")
+    })
+}
+
+
+insert(true).then((value) => {
+    console.log("Status: " + value + ".")
+}).catch(error => {
+    console.log("Erro " + error)
+})
 
 ////////////////////
 var arrayNotas = [5.3, 4.7, 8.5, 7.1, 6.4, 9.2, 9.8, 5.5, 7.4, 7.0]

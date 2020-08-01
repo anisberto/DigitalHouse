@@ -1,0 +1,12 @@
+div {
+    background-color: #CCC;
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
+
+div p {
+    font-size: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
